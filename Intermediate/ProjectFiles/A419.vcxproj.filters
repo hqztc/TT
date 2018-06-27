@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\A419.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{02A91C42-AF2F-4F66-A34D-2D1CAB748112}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\A419.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\A419Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{464858C8-92E6-4C34-A4A4-A7C042AFF808}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultCrypto.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{2C44694E-CDF4-4EFD-B956-75F9F7C2ECA4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealTinyXml">
+			<UniqueIdentifier>{2AD8E419-9567-414E-B99A-27AF8EAB0451}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealTinyXml\Source">
+			<UniqueIdentifier>{4E8C8EAD-68A8-49FB-AAE6-BDEB477376CC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealTinyXml\Source\ThirdParty">
+			<UniqueIdentifier>{4F63966C-887C-4532-BAA4-A3C9C21638E1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml">
+			<UniqueIdentifier>{F99EDB7A-FE66-43E4-9DCA-163816E69C54}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\TinyXml.Build.cs">
+			<Filter>Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Private">
+			<UniqueIdentifier>{DC5694CA-874D-4A6D-B486-0CC9EEB412C8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Private\TinyXml.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Private\tinyxml2.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Public">
+			<UniqueIdentifier>{B11A9968-94CF-4A49-9ABE-F11F5F3ED4A4}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Public\TinyXml.h">
+			<Filter>Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Public\tinyxml2.h">
+			<Filter>Plugins\UnrealTinyXml\Source\ThirdParty\TinyXml\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\UnrealTinyXml\UnrealTinyXml.uplugin">
+			<Filter>Plugins\UnrealTinyXml</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealTinyXml\Resources">
+			<UniqueIdentifier>{E709370E-AADF-4362-8FFF-991774C78D8D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealTinyXml\Resources\Icon128.png">
+			<Filter>Plugins\UnrealTinyXml\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealTinyXml\Source\UnrealTinyXml">
+			<UniqueIdentifier>{3FF42908-7A8F-4402-863F-E2E45BB372E2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\UnrealTinyXml.Build.cs">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private">
+			<UniqueIdentifier>{0B8BDE45-F286-43BB-BBB2-CEFEAB05FA0E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\ExcelBasedXml.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\UnrealTinyXml.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\Utility.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlAttribute.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlDeclaration.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlDocument.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlElement.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlNode.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private\XmlTableRow.cpp">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public">
+			<UniqueIdentifier>{A05CD7F3-56F4-42EF-9C0D-5869F546F3DE}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\ExcelBasedXml.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\UnrealTinyXml.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\Utility.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlAttribute.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlDeclaration.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlDocument.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlElement.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlNode.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public\XmlTableRow.h">
+			<Filter>Plugins\UnrealTinyXml\Source\UnrealTinyXml\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\A419">
+			<UniqueIdentifier>{B670BE1E-AC24-41C8-9D19-BC9883A08CD7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\A419\A419.Build.cs">
+			<Filter>Source\A419</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\A419\A419.cpp">
+			<Filter>Source\A419</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\A419\A419.h">
+			<Filter>Source\A419</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\A419\A419GameModeBase.cpp">
+			<Filter>Source\A419</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\A419\A419GameModeBase.h">
+			<Filter>Source\A419</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\A419\MyActor.cpp">
+			<Filter>Source\A419</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\A419\MyActor.h">
+			<Filter>Source\A419</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
